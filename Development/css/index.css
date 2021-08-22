@@ -1,0 +1,282 @@
+/****************************************** Navigation Bar ************************************/
+
+nav{
+  font-family: 'Vollkorn', serif;
+}
+
+.fa-shopping-cart{
+    color:#9d9d9d;
+}
+
+.nav-link{
+   font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    color:#012840;
+}
+
+a.nav-link{
+  font-family: 'Vollkorn', serif;
+}
+
+a.nav-link:hover{
+    color: #012840;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+  /**************************************************For categroy*****************************************************/
+.row{
+    margin-top:200px ;
+}
+
+.imggs img{
+    margin-top:100px;
+    width: 300px;
+    height:400px;
+}
+  .col-md-4{
+      margin-top: 100;
+  }
+
+
+  .imggs2  img{
+    width: 85px;
+    height:85px;
+}
+
+.Category{
+    margin-top: 200px;
+}
+
+.btn-circle.btn-xl {
+  width: 150px;
+  height: 150px;
+  padding: 10px 16px;
+  border-radius: 100%;
+  font-size: 12px;
+  text-align: center;
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}     
+/******************For Card******************************/
+h2{
+  color: #022471;
+  font-family: 'PT Serif Caption', serif;
+
+}
+
+.margin{
+  margin-top:150px;
+  margin-bottom:150px;
+}
+
+.imggs3 img{
+  width:287px;
+  height:250px;
+}
+
+.card-title{
+  color: #022471;
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.card-text img{
+  width:30px;
+  height:30px;
+}
+
+.card-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #022741; 
+  font-family: 'PT Serif Caption', serif; 
+}
+
+.card-price{
+  margin-top:-30px;
+  font-size: 32px;
+  color: #F24445;
+  font-weight: bold; 
+  font-family: 'PT Serif Caption', serif; 
+}
+
+.card{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+.contain{
+  margin-top:200px;
+  margin-bottom:50px;
+}
+
+.btn-circle.btn-sm {
+ width: 20px;
+ height: 20px;
+ padding: 6px 0px;
+ border-radius: 15px;
+ font-size: 8px;
+ text-align: center;
+}
+
+/************************************For Brand Images*************************/
+
+
+.brand1 img{
+    width: 177px;
+    height: 44px;
+}
+
+.brand2 img{
+    width: 95px;
+    height: 92px;
+}
+.brand3 img{
+    width: 97px;
+    height: 97px;
+}
+.brand4 img{
+    width: 97px;
+    height: 97px;
+}
+.brand5 img{
+    width: 121px;
+    height: 81px;
+}
+
+.brand6 img{
+    width: 127px;
+    height: 82px;
+}
+.brand7 img{
+    width: 107px;
+    height: 60px;
+}
+.brand8 img{
+    width: 93px;
+    height: 93px;
+}
+
+.imggs5 img{
+    margin-top: 50px;
+}
+.imggs4 img{
+    margin-bottom:50px;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+
+/****************************** Review******************/
+.reviews{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius:10px;
+  font-family: 'Vollkorn', serif;
+  color: #022741;
+}
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}

@@ -1,0 +1,180 @@
+/****************************************** Navigation Bar ************************************/
+
+nav{
+    font-family: 'Vollkorn', serif;
+  }
+  
+  .fa-shopping-cart{
+      color:#9d9d9d;
+  }
+  
+  .nav-link{
+     font-family: 'Vollkorn', serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      color:#012840;
+  }
+  
+  a.nav-link{
+    font-family: 'Vollkorn', serif;
+  }
+  
+  a.nav-link:hover{
+      color: #012840;
+  }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+  
+  
+/************************ Add Cart********************************/
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.40rem
+}
+
+.img-sm {
+    width: 80px;
+    height: 80px
+}
+
+.itemside .info {
+    padding-left: 15px;
+    padding-right: 7px
+}
+
+.table-shopping-cart .price-wrap {
+    line-height: 1.2
+}
+
+.table-shopping-cart .price {
+    font-weight: bold;
+    margin-right: 5px;
+    display: block
+}
+
+.text-muted {
+    color: #969696 !important
+}
+
+a {
+    text-decoration: none !important
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0px
+}
+
+.itemside {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+
+.dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+[class*="dlist-"] {
+    margin-bottom: 5px
+}
+
+.coupon {
+    border-radius: 1px
+}
+
+.price {
+    font-weight: 600;
+    color: #212529
+}
+
+.btn.btn-out {
+    outline: 1px solid #fff;
+    outline-offset: -5px
+}
+
+.btn-main {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%
+}
+
+.btn-light {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #f8f9fa;
+    font-size: 12px
+}
+
+.btn-light:hover {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #F44336
+}
+
+.btn-apply {
+    font-size: 11px
+}
+
+.glow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cart{
+    color: #022471;
+    font-family: 'PT Serif Caption', serif;
+}
+
+h2{
+    color: #022471;
+    font-family: 'PT Serif Caption', serif;
+  }
+  
